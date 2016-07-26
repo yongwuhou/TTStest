@@ -1,0 +1,380 @@
+2016-04-14 16:22:29,807 [3] DEBUG - Url:https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+2016-04-14 16:22:29,817 [3] DEBUG - sendString:GET /oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a& HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+Accept-Encoding:gzip, deflate, sdch
+Host: openapi.baidu.com
+Connection: keep-alive
+
+
+2016-04-14 16:22:29,878 [3] DEBUG - uri.Host:openapi.baidu.com, uri.Port:443
+2016-04-14 16:22:30,453 [9] DEBUG - LoginDone:{"access_token":"24.3de2c47b3f10af196a624824f4aa5b3f.2592000.1463214159.282335-8000641","session_key":"9mzdCKDwEweRxLkik+14Y16SLOulkIbhMQXkJtmakRXzXdj7FWb4zCLESSEJC7a0dxZTO4L8ybbQcUxwUgv50JM4lqS7","scope":"public audio_tts_post wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian","refresh_token":"25.e7300b670622c23754eb3ef4628ff29d.315360000.1775982159.282335-8000641","session_secret":"506fb20f680459aeeb9b83254c5a8638","expires_in":2592000}
+
+2016-04-14 16:22:30,454 [9] DEBUG - AccessToken:24.3de2c47b3f10af196a624824f4aa5b3f.2592000.1463214159.282335-8000641
+2016-04-14 16:22:31,728 [12] DEBUG - Url:http://tsn.baidu.com/text2audio?tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.3de2c47b3f10af196a624824f4aa5b3f.2592000.1463214159.282335-8000641
+2016-04-14 16:22:31,729 [12] DEBUG - sendString:GET /text2audio?tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.3de2c47b3f10af196a624824f4aa5b3f.2592000.1463214159.282335-8000641 HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: http://tsn.baidu.com/text2audio?tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.3de2c47b3f10af196a624824f4aa5b3f.2592000.1463214159.282335-8000641
+Accept-Encoding:gzip, deflate, sdch
+Host: tsn.baidu.com
+Connection: keep-alive
+Cookie: BAIDUID=D8FB7E7743B7374AA515CA074AF8AF48:FG=1;
+
+
+2016-04-14 16:22:31,745 [12] DEBUG - uri.Host:tsn.baidu.com, uri.Port:80
+2016-04-14 16:25:26,717 [12] DEBUG - Url:https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+2016-04-14 16:25:26,727 [12] DEBUG - sendString:GET /oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a& HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+Accept-Encoding:gzip, deflate, sdch
+Host: openapi.baidu.com
+Connection: keep-alive
+
+
+2016-04-14 16:25:26,779 [12] DEBUG - uri.Host:openapi.baidu.com, uri.Port:443
+2016-04-14 16:25:27,044 [9] DEBUG - LoginDone:{"access_token":"24.a5b73f45af1c3571532b746c3a050857.2592000.1463214336.282335-8000641","session_key":"9mzdWukafPN\/4M1+N33ELIA1b5+Ahdwo1StkLloB1qlwjbqo0FCMAz5dD0d89q7kz6ypsgSROiXdqUS2XQs3lGVqwYRm","scope":"public audio_tts_post wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian","refresh_token":"25.5dae9dc7a3fc0625122c7567157ce495.315360000.1775982336.282335-8000641","session_secret":"637e95e28c1a714d0de43f125a16c2b7","expires_in":2592000}
+
+2016-04-14 16:25:27,045 [9] DEBUG - AccessToken:24.a5b73f45af1c3571532b746c3a050857.2592000.1463214336.282335-8000641
+2016-04-14 16:25:28,851 [13] DEBUG - Url:http://tsn.baidu.com/text2audio?tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.a5b73f45af1c3571532b746c3a050857.2592000.1463214336.282335-8000641
+2016-04-14 16:25:28,853 [13] DEBUG - sendString:GET /text2audio?tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.a5b73f45af1c3571532b746c3a050857.2592000.1463214336.282335-8000641 HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: http://tsn.baidu.com/text2audio?tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.a5b73f45af1c3571532b746c3a050857.2592000.1463214336.282335-8000641
+Accept-Encoding:gzip, deflate, sdch
+Host: tsn.baidu.com
+Connection: keep-alive
+Cookie: BAIDUID=21E9B5F1134A5622023BEB0FEE5DD96C:FG=1;
+
+
+2016-04-14 16:25:29,005 [9] DEBUG - LoginError:10057;;NotConnected;;由于套接字没有连接并且(当使用一个 sendto 调用发送数据报套接字时)没有提供地址，发送或接收数据的请求没有被接受。
+2016-04-14 16:28:16,577 [12] DEBUG - Url:https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+2016-04-14 16:28:16,586 [12] DEBUG - sendString:GET /oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a& HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+Accept-Encoding:gzip, deflate, sdch
+Host: openapi.baidu.com
+Connection: keep-alive
+
+
+2016-04-14 16:28:16,636 [12] DEBUG - uri.Host:openapi.baidu.com, uri.Port:443
+2016-04-14 16:28:16,840 [9] DEBUG - LoginDone:{"access_token":"24.be52f5234dab5e0d491b8ab49bf238a5.2592000.1463214505.282335-8000641","session_key":"9mzdWT+OjoQZIqqcxYiu1V25jcY90Mpes2\/AzpYkDZFNOMonB8Qwl\/m0weZiMEj8j4kM8XeDILe7APNsetuAsLRRxasD","scope":"public audio_tts_post wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian","refresh_token":"25.823c29a87c4d2bfea8027218337da36f.315360000.1775982505.282335-8000641","session_secret":"a845416e28a2ffe9bc96fb8547fa5cc9","expires_in":2592000}
+
+2016-04-14 16:28:16,841 [9] DEBUG - AccessToken:24.be52f5234dab5e0d491b8ab49bf238a5.2592000.1463214505.282335-8000641
+2016-04-14 16:28:18,317 [13] DEBUG - Url:http://192.168.130.214?tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.be52f5234dab5e0d491b8ab49bf238a5.2592000.1463214505.282335-8000641
+2016-04-14 16:28:18,319 [13] DEBUG - sendString:GET /?tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.be52f5234dab5e0d491b8ab49bf238a5.2592000.1463214505.282335-8000641 HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: http://192.168.130.214/?tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.be52f5234dab5e0d491b8ab49bf238a5.2592000.1463214505.282335-8000641
+Accept-Encoding:gzip, deflate, sdch
+Host: 192.168.130.214
+Connection: keep-alive
+Cookie: BAIDUID=66D566375869EF768E786F68CD617594:FG=1;
+
+
+2016-04-14 16:28:18,321 [13] DEBUG - uri.Host:192.168.130.214, uri.Port:80
+2016-04-14 16:28:21,898 [9] DEBUG - LoginError:10060;;TimedOut;;由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2016-04-14 16:30:06,185 [13] DEBUG - Url:https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+2016-04-14 16:30:06,195 [13] DEBUG - sendString:GET /oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a& HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+Accept-Encoding:gzip, deflate, sdch
+Host: openapi.baidu.com
+Connection: keep-alive
+
+
+2016-04-14 16:30:06,252 [13] DEBUG - uri.Host:openapi.baidu.com, uri.Port:443
+2016-04-14 16:30:06,473 [10] DEBUG - LoginDone:{"access_token":"24.b838df35d5010d1483be29cfbf77669c.2592000.1463214615.282335-8000641","session_key":"9mzdWWKT+vNQXEtNxEwBO6foG0hyqlC+QywH\/uJehMtMKLk\/A3jy\/RwKBca2Y6mIf\/xWguKMpW4ZytKvUCQTGGYYGFtu","scope":"public audio_tts_post wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian","refresh_token":"25.2648ee6b7de61db7d2b443378175ff97.315360000.1775982615.282335-8000641","session_secret":"44f046a2088534168a6e1bc0406463ab","expires_in":2592000}
+
+2016-04-14 16:30:06,474 [10] DEBUG - AccessToken:24.b838df35d5010d1483be29cfbf77669c.2592000.1463214615.282335-8000641
+2016-04-14 16:30:07,734 [14] DEBUG - Url:http://192.168.130.214:80/xml?method=gw.config.get&id=48&pass=admin
+2016-04-14 16:30:07,735 [14] DEBUG - sendString:GET /xml?method=gw.config.get&id=48&pass=admin HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: http://192.168.130.214/xml?method=gw.config.get&id=48&pass=admin
+Accept-Encoding:gzip, deflate, sdch
+Host: 192.168.130.214
+Connection: keep-alive
+Cookie: BAIDUID=BFDD9170C8B8B59B942D981AD33FF2A3:FG=1;
+
+
+2016-04-14 16:30:07,740 [14] DEBUG - uri.Host:192.168.130.214, uri.Port:80
+2016-04-14 16:30:07,786 [10] DEBUG - LoginDone:<?xml version="1.0" encoding="UTF-8" ?>
+<rsp stat="ok">
+<config  method="gw.config.get">
+<item id="48" value="OM" />
+</config>
+</rsp>
+
+2016-04-14 16:30:07,788 [10] DEBUG - AccessToken:24.b838df35d5010d1483be29cfbf77669c.2592000.1463214615.282335-8000641
+2016-04-14 16:35:17,944 [13] DEBUG - Url:https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+2016-04-14 16:35:17,954 [13] DEBUG - sendString:GET /oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a& HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+Accept-Encoding:gzip, deflate, sdch
+Host: openapi.baidu.com
+Connection: keep-alive
+
+
+2016-04-14 16:35:18,021 [13] DEBUG - uri.Host:openapi.baidu.com, uri.Port:443
+2016-04-14 16:35:18,210 [9] DEBUG - LoginDone:{"access_token":"24.a16cb08f6a0c00a676b08d98a672f42b.2592000.1463214927.282335-8000641","session_key":"9mzdWu3Igdg0BB5zmTB2TSC3m8K\/GmFC4v0kenOv579uxGQtPBIAE71Q12U3ojxI6Lu8aeC1szyFnYAnK1xi2Vg2Ovek","scope":"public audio_tts_post wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian","refresh_token":"25.7492ce72f675ddb4c26d36f40f8b2931.315360000.1775982927.282335-8000641","session_secret":"bd8f2c3c1b1c4bd1c7460d1afa715c3f","expires_in":2592000}
+
+2016-04-14 16:35:18,211 [9] DEBUG - AccessToken:24.a16cb08f6a0c00a676b08d98a672f42b.2592000.1463214927.282335-8000641
+2016-04-14 16:35:19,956 [14] DEBUG - Url:http://tsn.baidu.com/text2audiotex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.a16cb08f6a0c00a676b08d98a672f42b.2592000.1463214927.282335-8000641
+2016-04-14 16:35:19,958 [14] DEBUG - sendString:GET /text2audiotex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.a16cb08f6a0c00a676b08d98a672f42b.2592000.1463214927.282335-8000641 HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: http://tsn.baidu.com/text2audiotex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.a16cb08f6a0c00a676b08d98a672f42b.2592000.1463214927.282335-8000641
+Accept-Encoding:gzip, deflate, sdch
+Host: tsn.baidu.com
+Connection: keep-alive
+Cookie: BAIDUID=A15510995253AC5706CD84F5A37568B7:FG=1;
+
+
+2016-04-14 16:35:19,978 [14] DEBUG - uri.Host:tsn.baidu.com, uri.Port:80
+2016-04-14 16:35:23,524 [9] DEBUG - LoginError:10060;;TimedOut;;由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2016-04-14 16:41:00,395 [4] DEBUG - Url:https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+2016-04-14 16:41:00,415 [4] DEBUG - sendString:GET /oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a& HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+Accept-Encoding:gzip, deflate, sdch
+Host: openapi.baidu.com
+Connection: keep-alive
+
+
+2016-04-14 16:41:00,486 [4] DEBUG - uri.Host:openapi.baidu.com, uri.Port:443
+2016-04-14 16:41:00,710 [10] DEBUG - LoginDone:{"access_token":"24.ee9834a6a217ca0467a755c4ee8ff861.2592000.1463215269.282335-8000641","session_key":"9mzdXqD9cwcHGgA+DrplajMlmxigYrpUf\/9hl8jQ\/w2p4PUHN9fI6hU2lSYpV+FeQKWKYx3nS1pq2Vipo4RRfyeR0OUy","scope":"public audio_tts_post wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian","refresh_token":"25.ce1cdc1d6140a9c17e79285d30842715.315360000.1775983269.282335-8000641","session_secret":"f1d5b4ad03849fc5c453ca48b16c34e9","expires_in":2592000}
+
+2016-04-14 16:41:00,711 [10] DEBUG - AccessToken:24.ee9834a6a217ca0467a755c4ee8ff861.2592000.1463215269.282335-8000641
+2016-04-14 16:41:02,536 [14] DEBUG - Url:http://tsn.baidu.com/text2audio
+2016-04-14 16:41:02,537 [14] DEBUG - sendString:POST /text2audio HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: http://tsn.baidu.com/text2audio
+Accept-Encoding:gzip, deflate, sdch
+Host: tsn.baidu.com
+Connection: keep-alive
+Cookie: BAIDUID=73B621DAF2004C9E59A0B42642CB5FDB:FG=1;
+Content-Type:text/html
+Content-Length: 109
+
+tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.ee9834a6a217ca0467a755c4ee8ff861.2592000.1463215269.282335-8000641
+2016-04-14 16:41:02,554 [14] DEBUG - uri.Host:tsn.baidu.com, uri.Port:80
+2016-04-14 16:41:06,099 [10] DEBUG - LoginError:10060;;TimedOut;;由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2016-04-14 16:41:59,459 [12] DEBUG - Url:https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+2016-04-14 16:41:59,469 [12] DEBUG - sendString:GET /oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a& HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+Accept-Encoding:gzip, deflate, sdch
+Host: openapi.baidu.com
+Connection: keep-alive
+
+
+2016-04-14 16:41:59,532 [12] DEBUG - uri.Host:openapi.baidu.com, uri.Port:443
+2016-04-14 16:41:59,797 [9] DEBUG - LoginDone:{"access_token":"24.2e1fbdde8e4049a2b945f98721057ad0.2592000.1463215328.282335-8000641","session_key":"9mzdCXNNVaY3EQixFzOQjw8xyeBuSPtUJfTBNnxrOMRL8uYkLCHqWpPoTN3bBNhJVkkrTi3Q2twGyMYr9SfzEH5N6Zdo","scope":"public audio_tts_post wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian","refresh_token":"25.e4c6e9ed1f43309c81046692482e3c74.315360000.1775983328.282335-8000641","session_secret":"f6b2faaac60bb667f8995ab10eda3c93","expires_in":2592000}
+
+2016-04-14 16:41:59,798 [9] DEBUG - AccessToken:24.2e1fbdde8e4049a2b945f98721057ad0.2592000.1463215328.282335-8000641
+2016-04-14 16:42:01,252 [13] DEBUG - Url:http://tsn.baidu.com/text2audio?tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.2e1fbdde8e4049a2b945f98721057ad0.2592000.1463215328.282335-8000641
+2016-04-14 16:42:01,255 [13] DEBUG - sendString:GET /text2audio?tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.2e1fbdde8e4049a2b945f98721057ad0.2592000.1463215328.282335-8000641 HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: http://tsn.baidu.com/text2audio?tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.2e1fbdde8e4049a2b945f98721057ad0.2592000.1463215328.282335-8000641
+Accept-Encoding:gzip, deflate, sdch
+Host: tsn.baidu.com
+Connection: keep-alive
+Cookie: BAIDUID=E6641B5A2D4E8A8DDB0A36CA7A6CF450:FG=1;
+
+
+2016-04-14 16:42:01,266 [13] DEBUG - uri.Host:tsn.baidu.com, uri.Port:80
+2016-04-14 16:42:04,796 [9] DEBUG - LoginError:10060;;TimedOut;;由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2016-04-18 14:46:29,023 [3] DEBUG - Url:https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+2016-04-18 14:46:29,154 [3] DEBUG - sendString:GET /oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a& HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+Accept-Encoding:gzip, deflate, sdch
+Host: openapi.baidu.com
+Connection: keep-alive
+
+
+2016-04-18 14:46:29,691 [3] DEBUG - uri.Host:openapi.baidu.com, uri.Port:443
+2016-04-18 14:46:31,148 [9] DEBUG - LoginDone:{"access_token":"24.d5ae0d37a899b25cafec6cf79a6e167c.2592000.1463554011.282335-8000641","session_key":"9mzdX+\/EPIg6fYP1GOYzV1+54oT034jHVnD5QsvmgxWS54kD7L12OQXP5a5CQNmKDDnx42mNfjzMbhIV1TdX9WYd+w1X","scope":"public audio_tts_post audio_voice_assistant_get wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian","refresh_token":"25.a0b85c3291b9b2ae5e3189389d20fb3a.315360000.1776322011.282335-8000641","session_secret":"a3294de38a006b9b5dc049200db107fa","expires_in":2592000}
+
+2016-04-18 14:46:31,150 [9] DEBUG - AccessToken:24.d5ae0d37a899b25cafec6cf79a6e167c.2592000.1463554011.282335-8000641
+2016-04-18 14:46:39,179 [3] DEBUG - Url:http://tsn.baidu.com/text2audio?tex=测试数据&lan=zh&cuid=74D435E27757&ctp=1&tok=24.d5ae0d37a899b25cafec6cf79a6e167c.2592000.1463554011.282335-8000641
+2016-04-18 14:46:39,182 [3] DEBUG - sendString:GET /text2audio?tex=%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE&lan=zh&cuid=74D435E27757&ctp=1&tok=24.d5ae0d37a899b25cafec6cf79a6e167c.2592000.1463554011.282335-8000641 HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: http://tsn.baidu.com/text2audio?tex=%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE&lan=zh&cuid=74D435E27757&ctp=1&tok=24.d5ae0d37a899b25cafec6cf79a6e167c.2592000.1463554011.282335-8000641
+Accept-Encoding:gzip, deflate, sdch
+Host: tsn.baidu.com
+Connection: keep-alive
+Cookie: BAIDUID=E65C005C564C2468BC2348FEAAE1AA26:FG=1;
+
+
+2016-04-18 14:46:39,199 [3] DEBUG - uri.Host:tsn.baidu.com, uri.Port:80
+2016-04-18 14:46:43,013 [9] DEBUG - LoginError:10060;;TimedOut;;由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2016-04-18 14:55:02,934 [13] DEBUG - Url:https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+2016-04-18 14:55:02,943 [13] DEBUG - sendString:GET /oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a& HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+Accept-Encoding:gzip, deflate, sdch
+Host: openapi.baidu.com
+Connection: keep-alive
+
+
+2016-04-18 14:55:03,006 [13] DEBUG - uri.Host:openapi.baidu.com, uri.Port:443
+2016-04-18 14:55:03,293 [10] DEBUG - LoginDone:{"access_token":"24.73be9be8b47a99cf284d157cc3525ae1.2592000.1463554523.282335-8000641","session_key":"9mzdDAZ83FLeR7Owpzah7bYc08jWnAyu4IGG+K+10b3\/guwakwbyTEjS2jbW5N23zkNvr4cu+KOfV1SwZS7dtyyyRWYo","scope":"public audio_tts_post audio_voice_assistant_get wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian","refresh_token":"25.5bbf6e1ea8640707c6c4a4cdc1db9242.315360000.1776322523.282335-8000641","session_secret":"bb3752fc36a90028a24e3253332bd640","expires_in":2592000}
+
+2016-04-18 14:55:03,294 [10] DEBUG - AccessToken:24.73be9be8b47a99cf284d157cc3525ae1.2592000.1463554523.282335-8000641
+2016-04-18 14:55:04,918 [10] DEBUG - HttpSocket.Connected
+2016-04-18 14:56:38,224 [13] DEBUG - Url:https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+2016-04-18 14:56:38,233 [13] DEBUG - sendString:GET /oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a& HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=pzUfQDz8XODiGyOGNHzSLAa2&client_secret=400ba453a3f0e159c3d8a7e99801c17a&
+Accept-Encoding:gzip, deflate, sdch
+Host: openapi.baidu.com
+Connection: keep-alive
+
+
+2016-04-18 14:56:38,287 [13] DEBUG - uri.Host:openapi.baidu.com, uri.Port:443
+2016-04-18 14:56:38,490 [9] DEBUG - LoginDone:{"access_token":"24.a1164c3a3c4ecab1833c1131a78c1896.2592000.1463554618.282335-8000641","session_key":"9mzdWu3PZUcYWDU4WgvtRoTuy7DJ+VKJnj\/On2mRDgtYYgwXOYIGlddlbj1gI7VAkme8yu37hHsp8WNJ+JMsVqPpKcLa","scope":"public audio_tts_post audio_voice_assistant_get wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian","refresh_token":"25.e601f165f5890245d65e7ad6cf80de43.315360000.1776322618.282335-8000641","session_secret":"0bd891e0cbb9ea3283ceab4eee19a951","expires_in":2592000}
+
+2016-04-18 14:56:38,491 [9] DEBUG - AccessToken:24.a1164c3a3c4ecab1833c1131a78c1896.2592000.1463554618.282335-8000641
+2016-04-18 14:56:40,727 [14] DEBUG - Url:http://tsn.baidu.com/text2audio?tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.a1164c3a3c4ecab1833c1131a78c1896.2592000.1463554618.282335-8000641
+2016-04-18 14:56:40,735 [14] DEBUG - sendString:GET /text2audio?tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.a1164c3a3c4ecab1833c1131a78c1896.2592000.1463554618.282335-8000641 HTTP/1.1
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: http://tsn.baidu.com/text2audio?tex=&lan=zh&cuid=74D435E27757&ctp=1&tok=24.a1164c3a3c4ecab1833c1131a78c1896.2592000.1463554618.282335-8000641
+Accept-Encoding:gzip, deflate, sdch
+Host: tsn.baidu.com
+Connection: keep-alive
+Cookie: BAIDUID=B42D042E6911C8A483B6D1F1DBA69ACC:FG=1;
+
+
+2016-04-18 14:56:40,745 [14] DEBUG - uri.Host:tsn.baidu.com, uri.Port:80
+2016-04-18 14:56:40,747 [14] DEBUG - HttpSocket.Connected
+2016-04-18 14:56:44,291 [9] DEBUG - LoginError:10060;;TimedOut;;由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2016-04-18 16:21:03,242 [10] DEBUG - AccessToken:24.8bdfc08b608f6dbdcd0c82f36acf58bb.2592000.1463559683.282335-8000641
+2016-04-18 16:23:24,505 [1] DEBUG - AccessToken:24.2c5eb43db5aae0a9e839cf1b4e106a13.2592000.1463559824.282335-8000641
+2016-04-18 16:29:30,614 [10] DEBUG - AccessToken:24.b8c3bc36dc63ce5d7a95f5587283ace5.2592000.1463560190.282335-8000641
+2016-04-18 16:33:45,844 [10] DEBUG - AccessToken:24.50f9486794ece10759a3f552afe0b308.2592000.1463560446.282335-8000641
+2016-04-18 16:38:30,227 [9] DEBUG - AccessToken:24.905d9115800c0d29fab414536206deec.2592000.1463560730.282335-8000641
+2016-04-18 16:47:18,190 [10] DEBUG - AccessToken:24.5b09d808bd9916edae8ab0797792c3bc.2592000.1463561258.282335-8000641
+2016-04-18 17:08:03,395 [10] DEBUG - AccessToken:24.6ad545485e94667c97c5835e6e1724b7.2592000.1463562503.282335-8000641
+2016-04-18 17:19:27,750 [10] DEBUG - AccessToken:24.457244c0ccdf46238f42088417c566f0.2592000.1463563187.282335-8000641
+2016-04-18 17:20:26,530 [11] DEBUG - AccessToken:24.109d8c2d078fac205b8aae5f2e0c4cd0.2592000.1463563246.282335-8000641
+2016-04-18 17:24:21,876 [9] DEBUG - AccessToken:24.9a844cfad329a45f614c1b9ccd64fd93.2592000.1463563482.282335-8000641
+2016-04-18 17:27:46,091 [9] DEBUG - AccessToken:24.02426df3fd2717c854a39eac3a5d07e9.2592000.1463563686.282335-8000641
+2016-04-18 17:44:39,427 [10] DEBUG - AccessToken:24.ec7550eaea9ba06a168cd0fde9eadae9.2592000.1463564699.282335-8000641
+2016-04-18 17:45:38,111 [9] DEBUG - AccessToken:24.83e7591d3e8411dc173f1923e9ce25d8.2592000.1463564758.282335-8000641
+2016-04-18 17:48:05,655 [9] DEBUG - AccessToken:24.dc2a95d9a7b8b4b591d0ec777c2db767.2592000.1463564905.282335-8000641
+2016-04-18 17:53:38,082 [9] DEBUG - AccessToken:24.3912d7cfa13f9698ea478c49308278d4.2592000.1463565238.282335-8000641
+2016-04-18 18:08:55,510 [10] ERROR - {"err_msg":"parameter error.","err_no":501}
+
+2016-04-18 18:09:46,502 [9] DEBUG - AccessToken:24.88b725b835f865de973cc9b2027f43cb.2592000.1463566206.282335-8000641
+2016-04-18 18:12:49,766 [10] DEBUG - AccessToken:24.8dcf025e6e0c52298026305b9b9288a3.2592000.1463566389.282335-8000641
+2016-04-18 18:14:06,611 [9] DEBUG - AccessToken:24.130fd5dfeac1e4fbbea21983b5e5cf6b.2592000.1463566466.282335-8000641
+2016-04-18 18:14:31,743 [9] DEBUG - AccessToken:24.a0289121839335c87873feff24014aeb.2592000.1463566491.282335-8000641
+2016-04-18 18:15:15,224 [10] DEBUG - AccessToken:24.7ae56b208b99f9bfdf84e0fdebd2ea88.2592000.1463566535.282335-8000641
+2016-04-18 18:16:46,344 [10] DEBUG - AccessToken:24.15a05a36f04ac8c3e045622ce0534560.2592000.1463566626.282335-8000641
+2016-04-18 18:16:46,485 [10] DEBUG - tex=测试程序&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.15a05a36f04ac8c3e045622ce0534560.2592000.1463566626.282335-8000641&spd=4&pit=6&vol=9
+2016-04-18 18:17:24,606 [11] DEBUG - AccessToken:24.f06931b2797a6eeb74972e8e0de48a06.2592000.1463566664.282335-8000641
+2016-04-18 18:17:24,729 [11] DEBUG - tex=测试程序&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.f06931b2797a6eeb74972e8e0de48a06.2592000.1463566664.282335-8000641&spd=4&pit=6&vol=9
+2016-04-18 18:19:36,807 [9] DEBUG - AccessToken:24.037f49abe65c708308fa51de962d0a53.2592000.1463566796.282335-8000641
+2016-04-18 18:19:36,943 [9] DEBUG - tex=远去的山河 沉寂，恋过的风景 如昔。苍何斩落了 情迷，生死轻付了 别离。捣一脉相思 成泥，沐四海悲风 无迹。往生海烟波 又起，妙华镜风雪 共历。&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.037f49abe65c708308fa51de962d0a53.2592000.1463566796.282335-8000641&spd=4&pit=6&vol=9
+2016-04-18 18:20:11,624 [9] DEBUG - AccessToken:24.120f6a23dab7afd97d0387bb116ae12f.2592000.1463566831.282335-8000641
+2016-04-18 18:20:11,802 [9] DEBUG - tex=测试程序&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.120f6a23dab7afd97d0387bb116ae12f.2592000.1463566831.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 09:45:06,632 [10] DEBUG - AccessToken:24.fe9d45c21115284ae625feb84f40c1d4.2592000.1463622329.282335-8000641
+2016-04-19 09:45:06,787 [10] DEBUG - tex=测试程序&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.fe9d45c21115284ae625feb84f40c1d4.2592000.1463622329.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 09:45:48,751 [10] DEBUG - AccessToken:24.c91e576991d8db241b88bb347ec1ef69.2592000.1463622371.282335-8000641
+2016-04-19 09:45:48,900 [10] DEBUG - tex=测试程序的简单例子&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.c91e576991d8db241b88bb347ec1ef69.2592000.1463622371.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 09:46:14,593 [10] DEBUG - AccessToken:24.e5e890eafa28df409d0598aca10ee0dd.2592000.1463622397.282335-8000641
+2016-04-19 09:46:14,873 [10] DEBUG - tex=远去的山河 沉寂，恋过的风景 如昔。苍何斩落了 情迷，生死轻付了 别离。捣一脉相思 成泥，沐四海悲风 无迹。往生海烟波 又起，妙华镜风雪 共历。&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.e5e890eafa28df409d0598aca10ee0dd.2592000.1463622397.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:27:57,155 [9] DEBUG - AccessToken:24.da4163fd070f9dc8a984d28248b5c9a6.2592000.1463635700.282335-8000641
+2016-04-19 13:27:57,401 [9] DEBUG - tex=远去的山河沉寂，恋过的风景如昔。苍何斩落了情迷，生死轻付了别离。捣一脉相思成泥，沐四海悲风无迹。往生海烟波又起，妙华镜风雪共历。&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.da4163fd070f9dc8a984d28248b5c9a6.2592000.1463635700.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:35:04,747 [9] DEBUG - AccessToken:24.f55eb2d84adfd839315f3838327ab3f6.2592000.1463636128.282335-8000641
+2016-04-19 13:35:04,906 [9] DEBUG - tex=Hello world&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.f55eb2d84adfd839315f3838327ab3f6.2592000.1463636128.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:35:36,624 [9] DEBUG - AccessToken:24.5c6a754f3f5c21f812a911c61406c153.2592000.1463636160.282335-8000641
+2016-04-19 13:35:36,766 [9] DEBUG - tex=Hello world&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.5c6a754f3f5c21f812a911c61406c153.2592000.1463636160.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:37:22,917 [9] DEBUG - AccessToken:24.65a92416cd498c7361013946bcce7488.2592000.1463636266.282335-8000641
+2016-04-19 13:37:23,061 [9] DEBUG - tex=We have to be greater than what we suffer.&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.65a92416cd498c7361013946bcce7488.2592000.1463636266.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:39:13,389 [8] DEBUG - AccessToken:24.917c6c94ba373ad225724d42629106aa.2592000.1463636377.282335-8000641
+2016-04-19 13:39:13,542 [8] DEBUG - tex=远去的山河沉寂，恋过的风景如昔。苍何斩落了情迷，生死轻付了别离。捣一脉相思成泥，沐四海悲风无迹。往生海烟波又起，妙华镜风雪共历。&lan=en&per=0&ctp=1&cuid=74D435E27757&tok=24.917c6c94ba373ad225724d42629106aa.2592000.1463636377.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:39:13,734 [8] ERROR - {"err_msg":"backend error.","err_no":503}
+
+2016-04-19 13:40:29,385 [10] DEBUG - AccessToken:24.40693ba9dd30aefaf056d7990eadee50.2592000.1463636453.282335-8000641
+2016-04-19 13:40:29,530 [10] DEBUG - tex=ni hao ma&lan=ch&per=0&ctp=1&cuid=74D435E27757&tok=24.40693ba9dd30aefaf056d7990eadee50.2592000.1463636453.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:40:29,839 [10] ERROR - {"err_msg":"backend error.","err_no":503}
+
+2016-04-19 13:42:16,617 [10] DEBUG - AccessToken:24.15902cba7dc77b9771717450c4d0bafc.2592000.1463636560.282335-8000641
+2016-04-19 13:42:16,804 [10] DEBUG - tex=MainWindow&lan=ch&per=0&ctp=1&cuid=74D435E27757&tok=24.15902cba7dc77b9771717450c4d0bafc.2592000.1463636560.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:42:16,966 [10] ERROR - {"err_msg":"backend error.","err_no":503}
+
+2016-04-19 13:42:28,955 [10] DEBUG - AccessToken:24.98fa82b053ef407cb01467f65bc05778.2592000.1463636572.282335-8000641
+2016-04-19 13:42:29,070 [10] DEBUG - tex=Main Window&lan=ch&per=0&ctp=1&cuid=74D435E27757&tok=24.98fa82b053ef407cb01467f65bc05778.2592000.1463636572.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:42:29,211 [10] ERROR - {"err_msg":"backend error.","err_no":503}
+
+2016-04-19 13:42:37,266 [10] DEBUG - AccessToken:24.580e989b6895ddf0da308603e5d04d31.2592000.1463636581.282335-8000641
+2016-04-19 13:42:37,399 [10] DEBUG - tex=Main Window&lan=ch&per=0&ctp=1&cuid=74D435E27757&tok=24.580e989b6895ddf0da308603e5d04d31.2592000.1463636581.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:42:37,543 [10] ERROR - {"err_msg":"backend error.","err_no":503}
+
+2016-04-19 13:42:45,085 [10] DEBUG - AccessToken:24.e000eb1b32b384130822b8ad9796448c.2592000.1463636588.282335-8000641
+2016-04-19 13:42:45,203 [10] DEBUG - tex=Main window&lan=ch&per=0&ctp=1&cuid=74D435E27757&tok=24.e000eb1b32b384130822b8ad9796448c.2592000.1463636588.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:42:45,360 [10] ERROR - {"err_msg":"backend error.","err_no":503}
+
+2016-04-19 13:43:08,593 [10] DEBUG - AccessToken:24.1baddc2dd2953d4cae9df2d2613b02de.2592000.1463636612.282335-8000641
+2016-04-19 13:43:08,715 [10] DEBUG - tex=main window&lan=ch&per=0&ctp=1&cuid=74D435E27757&tok=24.1baddc2dd2953d4cae9df2d2613b02de.2592000.1463636612.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:43:08,990 [10] ERROR - {"err_msg":"backend error.","err_no":503}
+
+2016-04-19 13:46:22,630 [9] DEBUG - AccessToken:24.5090372d67a5833225893a5edf1bf6d1.2592000.1463636806.282335-8000641
+2016-04-19 13:46:22,815 [9] DEBUG - tex=Sometimes the perfect person for you is the one you least expect.&lan=ch&per=0&ctp=1&cuid=74D435E27757&tok=24.5090372d67a5833225893a5edf1bf6d1.2592000.1463636806.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:46:23,075 [9] ERROR - {"err_msg":"backend error.","err_no":503}
+
+2016-04-19 13:47:03,496 [10] DEBUG - AccessToken:24.c043f799ee544691741d1eb9656d5990.2592000.1463636847.282335-8000641
+2016-04-19 13:47:03,656 [10] DEBUG - tex=ni hao ma&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.c043f799ee544691741d1eb9656d5990.2592000.1463636847.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:47:23,967 [10] DEBUG - AccessToken:24.20c322c07f36041496ebf5dcf40a34f3.2592000.1463636867.282335-8000641
+2016-04-19 13:47:24,097 [10] DEBUG - tex=wo hen hao ya&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.20c322c07f36041496ebf5dcf40a34f3.2592000.1463636867.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:47:51,572 [9] DEBUG - AccessToken:24.4dc7d3bb1d4bc87d2d116d3f3df0387b.2592000.1463636895.282335-8000641
+2016-04-19 13:47:51,734 [9] DEBUG - tex=wo hen hao ya ,ni ne &lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.4dc7d3bb1d4bc87d2d116d3f3df0387b.2592000.1463636895.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:48:18,724 [9] DEBUG - AccessToken:24.b74f4f39a7b43c8479088eebd374e80d.2592000.1463636922.282335-8000641
+2016-04-19 13:48:18,869 [9] DEBUG - tex=Sometimes the perfect person for you is the one you least expect.&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.b74f4f39a7b43c8479088eebd374e80d.2592000.1463636922.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:48:36,498 [10] DEBUG - AccessToken:24.8f2e17b11d601661bfaf79cac4d04490.2592000.1463636940.282335-8000641
+2016-04-19 13:48:36,649 [10] DEBUG - tex=Sometimes the perfect person for you is the one you least expect.&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.8f2e17b11d601661bfaf79cac4d04490.2592000.1463636940.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 13:56:05,879 [9] DEBUG - AccessToken:24.959795cdc11845698ed8780b1a97e4b3.2592000.1463637389.282335-8000641
+2016-04-19 13:56:06,009 [9] DEBUG - tex=远去的山河沉寂，恋过的风景如昔。苍何斩落了情迷，生死轻付了别离。捣一脉相思成泥，沐四海悲风无迹。往生海烟波又起，妙华镜风雪共历。Sometimes the perfect person for you is the one you least expect.Somewhere, someday, the unexpected encounter with someone changed your life somehow.&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.959795cdc11845698ed8780b1a97e4b3.2592000.1463637389.282335-8000641&spd=4&pit=6&vol=9
+2016-04-19 18:12:29,482 [9] DEBUG - AccessToken:24.3102d9b0f2a947059d2cdada0067590e.2592000.1463652772.282335-8000641
+2016-04-19 18:14:24,886 [10] DEBUG - AccessToken:24.f574115da9ff6e295db9d4dee750866e.2592000.1463652888.282335-8000641
+2016-04-19 18:14:35,215 [10] DEBUG - {"corpus_no":"6275208770895755235","err_msg":"success.","err_no":0,"result":["欢迎您的来电，少扣点我们业务人员为您服务，或者请直播分机号，"],"sn":"849061209501461060897"}
+
+2016-04-19 18:20:00,861 [9] DEBUG - AccessToken:24.23b9351079d05be79a19757d9b6de39b.2592000.1463653224.282335-8000641
+2016-04-20 13:56:13,410 [10] DEBUG - AccessToken:24.9c56cd1ec7f65541eed1115d7bc2de17.2592000.1463723799.282335-8000641
+2016-04-20 13:59:14,714 [9] DEBUG - AccessToken:24.2b4a4fe83459f2e06b12c8b2aedbc25d.2592000.1463723981.282335-8000641
+2016-04-20 13:59:26,561 [9] DEBUG - tex=远去的山河沉寂，恋过的风景如昔。苍何斩落了情迷，生死轻付了别离。捣一脉相思成泥，沐四海悲风无迹。往生海烟波又起，妙华镜风雪共历。&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.2b4a4fe83459f2e06b12c8b2aedbc25d.2592000.1463723981.282335-8000641&spd=4&pit=6&vol=9
+2016-04-20 13:59:56,558 [9] DEBUG - {"corpus_no":"6275514249454128589","err_msg":"success.","err_no":0,"result":["欢迎您的来电，少扣点我们业务人员为您服务，或者请直播分机号，"],"sn":"35774318271461132021"}
+
+2016-04-20 14:10:56,204 [9] DEBUG - AccessToken:24.aa7fab249ab85632615c9dfc589b1b81.2592000.1463724682.282335-8000641
+2016-04-20 14:11:22,140 [9] DEBUG - AccessToken:24.2367c7ff0728be401747716ac7c6384d.2592000.1463724708.282335-8000641
+2016-04-20 14:11:25,438 [9] DEBUG - tex=Sometimes the perfect person for you is the one you least expect.Somewhere, someday, the unexpected encounter with someone changed your life somehow.&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.2367c7ff0728be401747716ac7c6384d.2592000.1463724708.282335-8000641&spd=4&pit=6&vol=9
+2016-04-20 14:12:00,897 [9] DEBUG - {"corpus_no":"6275517334170648645","err_msg":"success.","err_no":0,"result":["点去大村和成绩并过的风景如期，他和贾抡了情迷，想死天赋了别离，找一麦相思成你，万四海悲风武器，往新海燕波又起，要怀孕风险够力，"],"sn":"634505108131461132740"}
+
+2016-04-20 14:13:06,384 [9] DEBUG - {"corpus_no":"6275517620315193360","err_msg":"success.","err_no":0,"result":["点去大村和成绩并过的风景如期，他和贾抡了情迷，想死天赋了别离，找一麦相思成你，万四海悲风武器，往新海燕波又起，要怀孕风险够力，"],"sn":"3703457171461132806"}
+
+2016-04-20 14:17:57,835 [9] DEBUG - AccessToken:24.7fef3bab9e940ad740d37c62f31293fc.2592000.1463725104.282335-8000641
+2016-04-20 14:18:31,880 [9] DEBUG - AccessToken:24.fd901969b2ba85570a25caa6405b1c66.2592000.1463725138.282335-8000641
+2016-04-20 14:18:34,598 [9] DEBUG - tex=远去的山河沉寂，恋过的风景如昔。苍何斩落了情迷，生死轻付了别离。捣一脉相思成泥，沐四海悲风无迹。往生海烟波又起，妙华镜风雪共历。&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.fd901969b2ba85570a25caa6405b1c66.2592000.1463725138.282335-8000641&spd=4&pit=6&vol=9
+2016-04-20 14:19:16,237 [9] DEBUG - {"corpus_no":"6275519185283955366","err_msg":"success.","err_no":0,"result":["then secret track hurricanes to employ the fitting routine, to threaten no liking need a shepherd came from the peony, ","then secret track hurricanes to employ the fitting routine, to threaten no liking me a shepherd came from the peony, ","then secret track hurricanes to employ the fitting routine, to threaten no liking need a shepherd came for the peony, ","then secret track hurricanes to employ the fitting routine, to threaten no liking the need a shepherd came from the peony, ","then secret track hurricanes to the border frontier rolled sheet, to threaten no liking need a shepherd came from the peony, ","then secret track hurricanes to the border frontier rolled sheet, to threaten no liking me a shepherd came from the peony, ","then secret track hurricanes to the border frontier rolled sheet, to threaten no liking need a shepherd came for the peony, ","then secret track hurricanes to the border frontier rolled sheet, to threaten no liking the need a shepherd came from the peony, ","then secret track hurricanes to employ their fitting routine, to threaten no liking need a shepherd came from the peony, ","then secret track hurricanes to employ their fitting routine, to threaten no liking me a shepherd came from the peony, "],"sn":"605868948561461133170"}
+
+2016-04-20 14:22:19,082 [9] DEBUG - tex=hello world&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.fd901969b2ba85570a25caa6405b1c66.2592000.1463725138.282335-8000641&spd=4&pit=6&vol=9
+2016-04-20 14:22:32,253 [9] DEBUG - AccessToken:24.fab3e8f7440519e2406b1ad3b15d54aa.2592000.1463725378.282335-8000641
+2016-04-20 14:22:41,951 [9] DEBUG - tex=hello world&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.fab3e8f7440519e2406b1ad3b15d54aa.2592000.1463725378.282335-8000641&spd=4&pit=6&vol=9
+2016-04-20 14:24:21,412 [8] DEBUG - AccessToken:24.bb21fcd89d5a5d3d61ad3e294e6b5ad8.2592000.1463725487.282335-8000641
+2016-04-20 14:24:30,580 [8] DEBUG - tex=你好&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.bb21fcd89d5a5d3d61ad3e294e6b5ad8.2592000.1463725487.282335-8000641&spd=4&pit=6&vol=9
+2016-04-20 14:24:46,202 [8] DEBUG - {"corpus_no":"6275520606854872050","err_msg":"success.","err_no":0,"result":["then secret track hurricanes to employ the fitting routine, to threaten no liking need a shepherd came from the peony, ","then secret track hurricanes to employ the fitting routine, to threaten no liking me a shepherd came from the peony, ","then secret track hurricanes to employ the fitting routine, to threaten no liking need a shepherd came for the peony, ","then secret track hurricanes to employ the fitting routine, to threaten no liking the need a shepherd came from the peony, ","then secret track hurricanes to the border frontier rolled sheet, to threaten no liking need a shepherd came from the peony, ","then secret track hurricanes to the border frontier rolled sheet, to threaten no liking me a shepherd came from the peony, ","then secret track hurricanes to the border frontier rolled sheet, to threaten no liking need a shepherd came for the peony, ","then secret track hurricanes to the border frontier rolled sheet, to threaten no liking the need a shepherd came from the peony, ","then secret track hurricanes to employ their fitting routine, to threaten no liking need a shepherd came from the peony, ","then secret track hurricanes to employ their fitting routine, to threaten no liking me a shepherd came from the peony, "],"sn":"275161244661461133502"}
+
+2016-04-20 14:25:54,810 [9] DEBUG - AccessToken:24.e7bb73494b8c500f5a18ec274f22b765.2592000.1463725580.282335-8000641
+2016-04-20 14:26:01,222 [9] DEBUG - {"corpus_no":"6275520967831917349","err_msg":"success.","err_no":0,"result":["onward, ","our led, ","former lord, ","solar led, ","our lord, "],"sn":"978289690621461133585"}
+
+2016-04-20 14:32:12,971 [9] DEBUG - AccessToken:24.d7a9c47d34649acfab560e64a2f9d6e6.2592000.1463725959.282335-8000641
+2016-04-20 14:32:15,971 [9] DEBUG - {"corpus_no":"6275522578330075378","err_msg":"success.","err_no":0,"result":["你好，"],"sn":"181786205411461133961"}
+
+2016-04-20 14:35:26,237 [9] DEBUG - tex=简单的测试一下合成和识别，看看是否准确。&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.d7a9c47d34649acfab560e64a2f9d6e6.2592000.1463725959.282335-8000641&spd=4&pit=6&vol=9
+2016-04-20 14:37:11,804 [8] DEBUG - AccessToken:24.dc8dfc09f6f76c705130f12ced5adcbb.2592000.1463726258.282335-8000641
+2016-04-20 14:37:22,133 [8] DEBUG - {"corpus_no":"6275523891713325036","err_msg":"success.","err_no":0,"result":["简单的测试一下合成和识别，看是否准确，"],"sn":"84053928701461134266"}
+
+2016-04-20 14:39:05,191 [8] DEBUG - tex=18818251783，1234567890&lan=zh&per=0&ctp=1&cuid=74D435E27757&tok=24.dc8dfc09f6f76c705130f12ced5adcbb.2592000.1463726258.282335-8000641&spd=4&pit=6&vol=9
+2016-04-20 14:40:51,793 [9] DEBUG - AccessToken:24.50a127c629710938cf0225bd3d56517d.2592000.1463726478.282335-8000641
+2016-04-20 14:41:00,212 [9] DEBUG - {"corpus_no":"6275524827882802094","err_msg":"success.","err_no":0,"result":["八八一八二五一七八三一ｉ三四五六七八九零，"],"sn":"75212537311461134484"}
+
+2016-04-20 14:41:41,138 [9] DEBUG - {"corpus_no":"6275525000577839044","err_msg":"success.","err_no":0,"result":["八八一八二五一七八三一ｉ三四五六七八九零，"],"sn":"638554940981461134525"}
+

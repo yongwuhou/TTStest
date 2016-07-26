@@ -1,0 +1,16 @@
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\bin\Debug\BaiduTTStest.exe
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\bin\Debug\BaiduTTStest.pdb
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\obj\x86\Debug\MainWindow.baml
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\obj\x86\Debug\MainWindow.g.cs
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\obj\x86\Debug\App.g.cs
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\obj\x86\Debug\BaiduTTStest_MarkupCompile.cache
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\obj\x86\Debug\BaiduTTStest.g.resources
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\obj\x86\Debug\BaiduTTStest.Properties.Resources.resources
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\obj\x86\Debug\BaiduTTStest.csproj.GenerateResource.Cache
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\obj\x86\Debug\BaiduTTStest.exe
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\obj\x86\Debug\BaiduTTStest.pdb
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\obj\x86\Debug\BaiduTTStest.csprojResolveAssemblyReference.cache
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\bin\Debug\BaiduTTStest.exe.config
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\bin\Debug\log4net.dll
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\bin\Debug\log4net.xml
+C:\Users\yw\Documents\Visual Studio 2010\Projects\BaiduTTStest\BaiduTTStest\bin\Debug\Newtonsoft.Json.dll

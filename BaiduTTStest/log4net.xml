@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<log4net>
+  <appender name="RollingFileAppender" type="log4net.Appender.RollingFileAppender">
+    <param name="LockingModel" type="log4net.Appender.FileAppender+MinimalLock" />
+    <param name="File" value="log\log.txt" />
+    <param name="AppendToFile" value="true" />
+    <param name="MaxSizeRollBackups" value="10" />
+    <param name="MaximumFileSize" value="2MB" />
+    <param name="RollingStyle" value="Size" />
+    <param name="StaticLogFileName" value="true" />
+    <layout type="log4net.Layout.PatternLayout">
+      <param name="ConversionPattern" value="%d [%t] %-5p - %m%n" />
+    </layout>
+  </appender>
+
+  <appender name="EventReportRollingFileAppender" type="log4net.Appender.RollingFileAppender">
+    <param name="LockingModel" type="log4net.Appender.FileAppender+MinimalLock" />
+    <param name="File" value="log\err-log.txt" />
+    <param name="AppendToFile" value="true" />
+    <param name="MaxSizeRollBackups" value="10" />
+    <param name="MaximumFileSize" value="4MB" />
+    <param name="RollingStyle" value="Size" />
+    <param name="StaticLogFileName" value="true" />
+    <layout type="log4net.Layout.PatternLayout">
+      <param name="ConversionPattern" value="%d [%t] %-5p - %m%n" />
+    </layout>
+  </appender>
+ 
+  <appender name="ColoredConsoleAppender" type="log4net.Appender.ColoredConsoleAppender">
+    <mapping>
+      <level value="FATAL" />
+      <foreColor value="Red, HighIntensity" />
+    </mapping>
+    <mapping>
+      <level value="ERROR" />
+      <foreColor value="Red, HighIntensity" />
+    </mapping>
+    <mapping>
+      <level value="WARN" />
+      <foreColor value="Yellow" />
+    </mapping>
+    <mapping>
+      <level value="INFO" />
+      <foreColor value="White" />
+    </mapping>
+    <mapping>
+      <level value="DEBUG" />
+      <foreColor value="Green" />
+    </mapping>
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%date [%thread] %-5level- %message%newline" />
+    </layout>
+  </appender>
+  
+  <root>
+    <level value="ALL" />
+    <appender-ref ref="RollingFileAppender" />
+    <appender-ref ref="ColoredConsoleAppender" />
+  </root>
+
+  <logger name="EventReport">
+    <level value="WARN" />
+    <appender-ref ref="EventReportRollingFileAppender" />
+    <appender-ref ref="udpAppender" />
+  </logger>
+ 
+</log4net>
+

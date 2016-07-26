@@ -1,0 +1,10 @@
+﻿<Window x:Class="BaiduTTStest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox Height="212" HorizontalAlignment="Left" Margin="13,7,0,0" Name="textBox1" VerticalAlignment="Top" Width="477" AcceptsReturn="True" AcceptsTab="True" TextWrapping="Wrap" />
+        <Button Content="合成" Height="28" HorizontalAlignment="Left" Margin="84,244,0,0" Name="button1" VerticalAlignment="Top" Width="73" Click="button1_Click" />
+        <Button Content="识别" Height="23" HorizontalAlignment="Left" Margin="275,244,0,0" Name="button2" VerticalAlignment="Top" Width="75" Click="button2_Click" />
+    </Grid>
+</Window>
